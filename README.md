@@ -1,7 +1,7 @@
 # Notion AutoEmoji
 Intelligently chosen emojis for your Notion pages. Powered by LLMs. 
 
-When you select 'Add Icon' to a Notion page, it assigns a _random_ emoji to it. I figured I could overengineer a solution by letting a state-of-the-art LLM pick one instead.
+When you select 'Add Icon' to a Notion page, a _random_ emoji is assigned to it. I figured I could overengineer a solution by letting a state-of-the-art LLM pick one instead.
 
 
 ### Prerequisites
