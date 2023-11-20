@@ -1,7 +1,12 @@
 import openai
 import os
 
+
+
+print(os.getenv('OPENAI_API_KEY'))
+print('==============')
 openai.api_key = os.getenv('OPENAI_API_KEY')
+print(os.getenv('OPENAI_API_KEY'))
 
 system_prompt = """
 You are an assistant embedded in the Notion note-taking app, and your job is to automatically assign emojis based on the title of new pages created by users. 
