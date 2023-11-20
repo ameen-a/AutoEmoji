@@ -1,0 +1,29 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AutoEmoji</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title"><a href="/"><img src="{{ url_for('static', filename='logo.png') }}" alt="Notion AutoEmoji 9000™" class="logo"></a></h1>
+        <p>Enter the link to your desired Notion page:<br>
+        (<i>Share ➡️ Copy link</i>)</p>
+        <form method="POST">
+            <input type="text" name="notion_link" placeholder="Notion Link" required {{ 'value=' + notion_link if notion_link }}>
+            <button type="submit">Get Emoji</button>
+        </form>
+        <div id="result" {{ 'hidden' if not emoji }}>
+            <p>For the page title '<b>{{ page_name }}</b>', the icon has been set to</p>
+            <div class="emoji">{{ emoji }}</div>
+            <!-- <p>Enter a new link above for a different page emoji suggestion.</p> -->
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+
+
+
+

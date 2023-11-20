@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 20vh;  
+    padding-top: 5%;  
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 500px; 
+    height: auto;  
+    margin-top: 50px;  /* add space at the top to move the logo down */
+
+}
+
+p {
+    margin-bottom: 20px;  /* create space below the instructions */
+}
+
+form input, form button {
+    display: block;
+    margin: 10px auto;
+}
+
+.emoji {
+    font-size: 6em;
+    margin-top: 15px;
+}
+
+#result p {
+    font-size: 1em; 
+    margin-bottom: 10px;  /* creates space below the page title */
+}
