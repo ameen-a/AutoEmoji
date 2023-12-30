@@ -30,6 +30,12 @@ This project was written in Python with a simple front-end built using HTML/CSS/
 - Give your desired Notion pages access to the integration you just created. <img width="500" alt="image" src="https://github.com/ameen-a/AutoEmoji/assets/7096331/6bfb3230-b5b7-4ddd-add7-0fce64a07628">
 - To run the front-end locally, navigate to the root directory and run the command `export FLASK_APP=AutoEmoji/main.py` followed by `flask run`. A new browser window should appear. 
 
+### Example Emoji Titles:
+
+<div align="center">
+  <img width="500" alt="image" src="https://github.com/ameen-a/AutoEmoji/assets/7096331/df9c9df1-cec6-4629-8ee0-19aedee139f8">
+</div>
+
 
 
 ## License
