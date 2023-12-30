@@ -4,7 +4,7 @@
 
 
 # Notion AutoEmoji
-Intelligently chosen emojis for your Notion pages. Powered by LLMs and deployed to the cloud. 
+### Intelligently chosen emojis for your Notion pages. Powered by LLMs and deployed to the cloud. 
 
 **Problem Statement:** When you select 'Add Icon' to a Notion page, a _random_ emoji is assigned to it. I found this behavior deeply unsatisfying, so I decided to fix it by letting an LLM pick one instead. 
 This project was written in Python with a simple front-end built using HTML/CSS/JS, containerised using Docker, and deployed to AWS ECS for personal use. You can achieve pretty good performance using `model="gpt-3.5-turbo"`, but feel free to swap to `gpt-4` for extra overkill. 
@@ -16,13 +16,13 @@ This project was written in Python with a simple front-end built using HTML/CSS/
 ## Usage:
 - Create a new Notion page and give it a title.
 - On the top-right of the Notion window, click `Share` and then `Copy Link`.
-- Paste the link into the _AutoEmoji_ text box.
+- Paste the link into the _AutoEmoji_ text box and click `Get Emoji`.
 
 
 ### Prerequisites
 - openai (`pip install openai`)
 - notion (`pip install notion`)
-- flask (`pip install flask (if running on a local web server)`)
+- flask (`pip install flask`) _if running on a local web server_
 
 
 ### Installation steps:
