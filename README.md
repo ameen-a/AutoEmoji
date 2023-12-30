@@ -26,9 +26,9 @@ This project was written in Python with a simple front-end built using HTML/CSS/
 
 
 ### Installation steps:
-- Create a new [Notion integration](https://www.notion.so/my-integrations) and find your [OpenAI API key](https://platform.openai.com/api-keys), saving both as environment variables. 
-- Give your desired Notion pages access to the integration you just created. <img width="500" alt="image" src="https://github.com/ameen-a/AutoEmoji/assets/7096331/6bfb3230-b5b7-4ddd-add7-0fce64a07628">
-- To run the front-end locally, navigate to the root directory and run the command `export FLASK_APP=AutoEmoji/main.py` followed by `flask run`. A new browser window should appear. 
+1. Create a new [Notion integration](https://www.notion.so/my-integrations) and find your [OpenAI API key](https://platform.openai.com/api-keys), saving both as environment variables.
+2. Give your desired Notion pages access to the integration you just created. <img width="500" alt="image" src="https://github.com/ameen-a/AutoEmoji/assets/7096331/6bfb3230-b5b7-4ddd-add7-0fce64a07628">
+3. To run the front-end locally, navigate to the root directory and run the command `export FLASK_APP=AutoEmoji/main.py` followed by `flask run`. A new browser window should appear. 
 
 ### Example emoji suggestions
 
@@ -37,9 +37,8 @@ This project was written in Python with a simple front-end built using HTML/CSS/
 </div>
 
 My favorites: 
-
-🏢 Jane Street - not only does the model recognise Jane Street as an entity, it captures the firm's high-corporate finance vibe with an office building emoji. 
-🌎 Effective Altruism - there are several good candidates for this: 💡, 🤝, ❤, 🌱, 📊, 🧠, 🔬, 📚, 💸, etc., yet I think the model found the best one. 
+- 🏢 **Jane Street** - not only does the model recognise Jane Street as a (somewhat niche) entity, it captures the firm's high-corporate finance vibe with an office building emoji.
+- 🌎 **Effective Altruism** - there are several good candidates for this: 💡, 🤝, ❤, 🔬, 📊, 🧠, 📚, 💸, etc., yet I think the model found the best one. 
 
 
 
