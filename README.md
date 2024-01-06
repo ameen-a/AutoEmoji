@@ -38,7 +38,8 @@ This project was written in Python with a simple front-end built using HTML/CSS/
 
 My favorites: 
 - 🏢 **Jane Street** - not only does the model recognise Jane Street as a (somewhat niche) entity, it captures the firm's high-corporate finance vibe with an office building emoji.
-- 🌎 **Effective Altruism** - there are several good candidates for this: 💡, 🤝, ❤, 🔬, 📊, 🧠, 📚, 💸, etc., yet I think the model found the best one. 
+- 🌎 **Effective Altruism** - there are several good candidates for this: 💡, 🤝, ❤, 🔬, 📊, 🧠, 📚, 💸, etc., yet I think the model found the best one.
+- 🍊 **Valencia** - having recently visited the Spanish city, I was quite surprised to see the model pick up on the famed [Valencian oranges](https://relocationservicesvalencia.com/oranges-in-valencia-fun-facts/)! 
 
 
 
